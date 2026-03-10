@@ -1,2 +1,2 @@
-discord.py
-flask
+discord.py>=2.5.0
+chat-exporter>=2.8.1
