@@ -14,8 +14,8 @@ import chat_exporter
 # =========================
 # CONFIG
 # =========================
-
-TOKEN = "TOKEN"
+import os
+TOKEN = os.getenv("TOKEN")
 GUILD_ID = 1417106737185685619
 
 WELCOME_CHANNEL_ID = 1417106737554788412
@@ -1091,3 +1091,4 @@ async def on_ready():
     print(f"✅ Bot ready: {bot.user}")
 
 bot.run(TOKEN)
+
